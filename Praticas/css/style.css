@@ -1,0 +1,39 @@
+body{
+    color:white;
+    background-color: rgba(50, 49, 49, 0.925);
+    margin: 0 auto;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    font-weight: 25px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.hero-img-btn{
+    display: flex;
+    flex-direction: column;
+    margin: 2px auto;
+    padding: 5px;
+    align-items: center;
+       
+}
+
+
+#hero{
+    width: 400px;
+    padding: 10px;
+    border-radius: 200px;
+}
+
+#hero-btn{
+    border: none;
+    background-color: rgb(227, 100, 227);
+    border-radius: 8px;
+    width: 40%;
+    font-size: 12.5px;
+}

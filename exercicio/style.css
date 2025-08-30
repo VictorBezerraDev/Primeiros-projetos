@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f9f8f8;
+  
+}
+
+
+header {
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: #333;
+    margin-bottom: 15px;
+
+}
+nav ul{
+    padding: 8px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a{
+    color: #f9f8f8;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+    color: brown;
+    font-weight: bold;
+
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    
+    
+}
+table th{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    
+}
+table td{
+    padding: 5px;
+}
+table tr:nth-child(even){
+    background-color: burlywood;
+}
+table tr:nth-child(odd){
+    background-color: rgb(224, 163, 82);
+}
+
+h1, h2 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+    padding: 15px;
+    line-height: 1.4;
+
+}
+
+section{
+    margin-bottom: 30px;
+
+}
+
+.lista{
+    width: 70%;
+    margin: auto;
+    list-style: none;
+}
+.lista li{ 
+    border-radius: 10px;
+    background-color: #acacac;
+    padding: 10px;
+    margin: 4px 0;
+    transition: background-color 1s;
+    
+}
+.lista li:hover{
+    background-color: red;
+    transform:scale(1.1)
+}
+
+div{
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    border-radius: 8px;
+    width: 580px;
+    transition: transform 0.4s ease-in;
+}
+img:hover{
+    transform: scale(1.5);
+}
+
+footer p{
+    background-color: darkgrey;
+    color: white;
+    text-align: center
+
+}
+
+
+@media (max-width: 768px){
+    header{
+        position: fixed;
+        z-index: 10;
+        font-size: 8px;
+        padding: 5px;
+
+    }
+
+    body{
+        font-size: 11px;
+    }
+
+    img{
+        width:300px;
+    }
+    nav {
+        display: inline-block;
+        position: fixed;
+        width: 100%;
+        z-index: 8;
+        
+    }
+
+    Table{
+        font-size: 8xp;
+        
+    }
+
+    .lista{
+        max-width: 50%;
+    }
+    .lista li:hover{
+        background-color: brown;
+        color: white;
+        ;
+    }
+
+}
